@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#77EF77C3"
+    android:orientation="vertical"
+    app:layout_constraintBaseline_toBaselineOf="parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Giải phương trình bậc 2"
+        android:textColor="#FF0057"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="300pt"
+        android:layout_height="88dp"
+        android:hint="Nhập a"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="#310C71"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/b"
+        android:layout_width="300pt"
+        android:layout_height="100dp"
+        android:hint="Nhập b"
+        android:paddingLeft="10dp"
+        android:textColor="#310C71"
+        android:textSize="30sp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="300pt"
+        android:layout_height="91dp"
+        android:hint="Nhập c"
+        android:paddingLeft="10dp"
+        android:textColor="#310C71"
+        android:textSize="30sp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#70DF372A"
+        android:onClick="Tinh"
+        android:text="Tính"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/calculate2"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-50dp"
+        android:background="#70DF372A"
+        android:onClick="Reset"
+        android:text="Reset"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:text="Kết Quả "
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Xin chào mọi người đã đến với channel của mình"
+        android:textColor="#E91E63"
+        android:textSize="28sp" />
+
+</LinearLayout>
